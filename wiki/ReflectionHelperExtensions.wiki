@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Simple extensions which adds `Reflect()` to any object.
+Simple extensions which adds `Reflect()` to any object which returns ReflectionHelper instance.
 
 = Samples =
 
