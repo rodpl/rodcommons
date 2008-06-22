@@ -1,0 +1,19 @@
+#summary Extensions for ReflectionHelper
+
+= Introduction =
+
+Simple extensions which adds `Reflect()` to any object.
+
+= Samples =
+
+{{{
+public void ChangeTransferAmountToTenDollars(Transfer transfer)
+{
+	return transfer.Reflect()
+		.Field("amount")
+		.SetValue(10)
+		.Property("Currency")
+		.SetValue("USD")
+		.Return<Transfer>();
+}
+}}}
