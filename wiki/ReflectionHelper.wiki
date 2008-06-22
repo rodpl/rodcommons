@@ -1,6 +1,6 @@
 #summary Helper for reflection
 
-= ReflectionHelper =
+= Introduction =
 
 ReflectionHelper class helps to change content of object instance. Syntax of using this class is kind of DSL.
 
